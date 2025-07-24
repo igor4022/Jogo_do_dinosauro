@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#backgroud {
+    position: relative;
+    width: 80%;
+    height: 500px;
+    border: 1px solid black;
+}
+
+.jogador {
+    position: absolute;
+    bottom: 0%;
+    width: 100px;
+}
+
+.jump {
+    animation: jump 1000ms ease-out;
+}
+
+.inimigo {
+    position: absolute;
+    bottom: 0%;
+    width: 80px;
+    animation: Ralsei 1700ms infinite;
+}
+
+@keyframes Ralsei {
+    
+    0% {
+        right: 0%;
+    }
+
+    100% {
+        right: 100%;
+    }
+}
+
+@keyframes jump {
+     
+    0% {
+        bottom: 0%;
+    }
+
+    30% {
+        bottom: 30%;
+    }
+
+    50% {
+        bottom: 30%;
+    }
+}
