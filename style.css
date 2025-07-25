@@ -27,7 +27,7 @@
     position: absolute;
     bottom: 0%;
     width: 80px;
-    animation: Ralsei 1700ms infinite;
+    animation: Ralsei 1200ms infinite;
 }
 
 @keyframes Ralsei {

@@ -18,12 +18,12 @@ let loop = setInterval(() => {
 
         ralsei.style.animation = 'none'
         ralsei.style.left = `${50}px`
-
+        
         esqueleto.src = 'imagens/dee7a38c4c7a3b9b0653ce54cb0f2084.gif'
-        esqueleto.style.width = '500px'
-        ralsei.src = 'imagens/dee7a38c4c7a3b9b0653ce54cb0f2084.gif'
+        esqueleto.style.width = '1000px'
+        ralsei.src.animation = 'imagens/dee7a38c4c7a3b9b0653ce54cb0f2084.gif'
         ralsei.style.width = '0px'
     } 
-}, 5)
+}, 10)
 
 document.addEventListener('keydown', jump)
