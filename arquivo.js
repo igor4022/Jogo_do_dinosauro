@@ -1,5 +1,6 @@
 let ralsei = document.querySelector('.inimigo')
 let esqueleto = document.querySelector('.jogador')
+let acabou = document.getElementById("fim").style.width = '0px'
 
 let jump = () => {
     esqueleto.classList.add('jump')
@@ -15,13 +16,13 @@ let loop = setInterval(() => {
     console.log(esqueletoMovimento)
 
     if (ralseiMovimento <= 50 && ralseiMovimento > 0 && esqueletoMovimento < 100) {
+let acabou = document.getElementById("fim").style.width = '830px'
+let esqueleto = document.querySelector('.jogador').style.width = '0px'
 
         ralsei.style.animation = 'none'
-        ralsei.style.left = `${50}px`
+        ralsei.style.left = `${70}px`
         
-        esqueleto.src = 'imagens/dee7a38c4c7a3b9b0653ce54cb0f2084.gif'
-        esqueleto.style.width = '1000px'
-        ralsei.src.animation = 'imagens/dee7a38c4c7a3b9b0653ce54cb0f2084.gif'
+        esqueleto = acabou
         ralsei.style.width = '0px'
     } 
 }, 10)
