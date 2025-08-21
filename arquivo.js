@@ -1,6 +1,7 @@
 let ralsei = document.querySelector('.inimigo')
 let esqueleto = document.querySelector('.jogador')
 let acabou = document.getElementById("fim").style.width = '0px'
+let fundo = document.querySelector('.fundo')
 
 let jump = () => {
     esqueleto.classList.add('jump')
@@ -24,6 +25,8 @@ let esqueleto = document.querySelector('.jogador').style.width = '0px'
         
         esqueleto = acabou
         ralsei.style.width = '0px'
+        fundo.style.width = '0px'
+
     } 
 }, 10)
 
